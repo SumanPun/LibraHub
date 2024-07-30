@@ -1,49 +1,170 @@
-﻿<!DOCTYPE html>
+﻿@using LibraHub.Constants
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> _userManager
+
+@{
+    var loggedInUser = await _userManager.GetUserAsync(User);
+    //get the current controller and action
+    var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+    var currentAction = ViewContext.RouteData.Values["action"]?.ToString();
+
+    var image = loggedInUser?.ImgUrl == null ? "/defaultImg/avatar.png" : "/uploads/user/" + loggedInUser.ImgUrl;
+}
+
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - LibraHub</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/LibraHub.styles.css" asp-append-version="true" />
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">LibraHub</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>@ViewData["Title"] - @AppConstants.Name</title>
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+    <link href="~/theme/css/styles.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - LibraHub - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+</head>
+
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <!-- Navbar Brand-->
+        <a class="navbar-brand ps-3 d-flex align-items-center gap-2" asp-controller="Home" asp-action="Index">
+            <img src="/img/logo.png" width="30px" height="30" alt="@AppConstants.Name">
+            @AppConstants.Name
+        </a>
+        <!-- Sidebar Toggle-->
+        <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!">
+            <i class="fas fa-bars"></i>
+        </button>
+        <!-- Navbar Search-->
+        <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+        </form>
+        <!-- Navbar-->
+        <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown"
+                   aria-expanded="false">
+                    <img src="@image" height="30px" width="30px" class="rounded bg-white"
+                         style="object-fit: cover; object-position: center;">
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" asp-controller="Profile" asp-action="Index">My Profile</a></li>
+                    <li>
+                        <hr class="dropdown-divider" />
+                    </li>   
+                    <li>
+                        <form asp-controller="Account" asp-action="Logout">
+                            <button class="dropdown-item">Logout</a>
+                        </form>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <a class='nav-link @(currentController=="Home"?"active":"")' asp-controller="Home"
+                           asp-action="Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Dashboard
+                        </a>
+                        @if (await _userManager.IsInRoleAsync(loggedInUser!, UserRoles.Admin))
+                        {
+                            <a class='nav-link @(currentController=="UserManagement"?"active":"")'
+                               asp-controller="UserManagement" asp-action="Index">
+                                <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
+                                User Management
+                            </a>
+                        }
+                        <a class='nav-link @(currentController=="Student"?"active":"")' asp-controller="Student"
+                           asp-action="Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-baby"></i></div>
+                            Student
+                        </a>
+                        <a class='nav-link @(currentController=="Category"?"active":"")' asp-controller="Category"
+                           asp-action="Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tools"></i></div>
+                            Category
+                        </a>
+                        <a class='nav-link @(currentController=="Book"?"active":"")' asp-controller="Book"
+                           asp-action="Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-book"></i></div>
+                            Book
+                        </a>
+                        <a class='nav-link @(currentController=="BookIssue" && currentAction!="IndexBookIssueHistory" && currentAction!="IndexReturnBook"?"active":"")'
+                           asp-controller="BookIssue" asp-action="Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-server"></i></div>
+                            Issue Book
+                        </a>
+                        <a class='nav-link @(currentController=="BookIssue" && currentAction=="IndexBookIssueHistory"?"active":"")'
+                           asp-controller="BookIssue" asp-action="IndexBookIssueHistory">
+                            <div class="sb-nav-link-icon"><i class="fas fa-history"></i></div>
+                            Issue Book History
+                        </a>
+                        <a class='nav-link @(currentController=="BookIssue" && currentAction=="IndexReturnBook"?"active":"")'
+                           asp-controller="BookIssue" asp-action="IndexReturnBook">
+                            <div class="sb-nav-link-icon"><i class="fas fa-refresh"></i></div>
+                            Return Book
+                        </a>
+                    </div>
+                </div>
+                <div class="sb-sidenav-footer">
+                    <div class="small">Logged in as:</div>
+                    @loggedInUser!.FullName
+                </div>
+            </nav>
         </div>
-    </footer>
+        <div id="layoutSidenav_content">
+            <main>
+                @RenderBody()
+            </main>
+            <footer class="py-4 bg-light mt-auto">
+                <div class="container-fluid px-4">
+                    <div class="d-flex align-items-center justify-content-between small">
+                        <div class="text-muted">Copyright &copy; @AppConstants.Name</div>
+                        <div>
+                            version: @AppConstants.Version
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            crossorigin="anonymous"></script>
+    <script src="~/theme/js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="~/theme/assets/demo/chart-area-demo.js"></script>
+    <script src="~/theme/assets/demo/chart-bar-demo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js"
+            crossorigin="anonymous"></script>
+    <script src="~/theme/js/datatables-simple-demo.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.select2').select2();
+        });
+    </script>
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
+    @await Component.InvokeAsync("Notyf")
+
 </body>
+
 </html>
+
+
