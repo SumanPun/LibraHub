@@ -1,6 +1,8 @@
 using AspNetCoreHero.ToastNotification;
 using AspNetCoreHero.ToastNotification.Extensions;
 using LibraHub.Data;
+using LibraHub.Helpers;
+using LibraHub.Helpers.Interface;
 using LibraHub.Models;
 using LibraHub.Seeder;
 using LibraHub.Seeder.Interface;
@@ -49,6 +51,7 @@ builder.Services.AddNotyf(options => {
 });
 
 builder.Services.AddScoped<IUserSeeder, UserSeeder>();
+builder.Services.AddScoped<IFileHelper, FileHelper>();
 
 var app = builder.Build();
 DataSeedingAsync();

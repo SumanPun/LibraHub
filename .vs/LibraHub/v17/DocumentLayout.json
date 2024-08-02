@@ -3,44 +3,20 @@
   "WorkspaceRootPath": "E:\\Dot net project\\LibraHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\viewmodels\\userviewmodel\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\viewmodels\\userviewmodel\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\viewmodels\\userviewmodel\\userdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\viewmodels\\userviewmodel\\userdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\viewmodels\\userviewmodel\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\viewmodels\\userviewmodel\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\viewmodels\\userviewmodel\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\viewmodels\\userviewmodel\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\viewmodels\\userviewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\viewmodels\\userviewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\helpers\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\helpers\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\helpers\\interface\\ifilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\helpers\\interface\\ifilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\repositories\\unitofworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\repositories\\unitofworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\repositories\\interface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\repositories\\interface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\repositories\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\repositories\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,131 +39,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ResetPasswordViewModel.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\ViewModels\\UserViewModel\\ResetPasswordViewModel.cs",
-              "RelativeDocumentMoniker": "LibraHub\\ViewModels\\UserViewModel\\ResetPasswordViewModel.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\ViewModels\\UserViewModel\\ResetPasswordViewModel.cs",
-              "RelativeToolTip": "LibraHub\\ViewModels\\UserViewModel\\ResetPasswordViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "LibraHub\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "LibraHub\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T02:40:20.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserDetailsViewModel.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\ViewModels\\UserViewModel\\UserDetailsViewModel.cs",
-              "RelativeDocumentMoniker": "LibraHub\\ViewModels\\UserViewModel\\UserDetailsViewModel.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\ViewModels\\UserViewModel\\UserDetailsViewModel.cs",
-              "RelativeToolTip": "LibraHub\\ViewModels\\UserViewModel\\UserDetailsViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T02:37:44.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditUserViewModel.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\ViewModels\\UserViewModel\\EditUserViewModel.cs",
-              "RelativeDocumentMoniker": "LibraHub\\ViewModels\\UserViewModel\\EditUserViewModel.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\ViewModels\\UserViewModel\\EditUserViewModel.cs",
-              "RelativeToolTip": "LibraHub\\ViewModels\\UserViewModel\\EditUserViewModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T02:30:07.84Z",
+              "WhenOpened": "2024-08-02T02:51:55.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserManagementController.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Controllers\\UserManagementController.cs",
-              "RelativeDocumentMoniker": "LibraHub\\Controllers\\UserManagementController.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Controllers\\UserManagementController.cs",
-              "RelativeToolTip": "LibraHub\\Controllers\\UserManagementController.cs",
-              "ViewState": "AQIAAPwAAAAAAAAAAAAQwAsBAAANAAAA",
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\Interface\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "LibraHub\\Repositories\\Interface\\ICategoryRepository.cs",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\Interface\\ICategoryRepository.cs",
+              "RelativeToolTip": "LibraHub\\Repositories\\Interface\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T01:51:41.097Z",
+              "WhenOpened": "2024-08-02T02:50:30.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateUserViewModel.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\ViewModels\\UserViewModel\\CreateUserViewModel.cs",
-              "RelativeDocumentMoniker": "LibraHub\\ViewModels\\UserViewModel\\CreateUserViewModel.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\ViewModels\\UserViewModel\\CreateUserViewModel.cs",
-              "RelativeToolTip": "LibraHub\\ViewModels\\UserViewModel\\CreateUserViewModel.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA7wBUAAAAsAAAA",
+              "DocumentIndex": 2,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "LibraHub\\Repositories\\Repository.cs",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\Repository.cs",
+              "RelativeToolTip": "LibraHub\\Repositories\\Repository.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T02:15:49.261Z",
+              "WhenOpened": "2024-08-02T02:41:48.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserViewModel.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\ViewModels\\UserViewModel\\UserViewModel.cs",
-              "RelativeDocumentMoniker": "LibraHub\\ViewModels\\UserViewModel\\UserViewModel.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\ViewModels\\UserViewModel\\UserViewModel.cs",
-              "RelativeToolTip": "LibraHub\\ViewModels\\UserViewModel\\UserViewModel.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAuwA4AAAABAAAA",
+              "DocumentIndex": 3,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\Interface\\IRepository.cs",
+              "RelativeDocumentMoniker": "LibraHub\\Repositories\\Interface\\IRepository.cs",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\Interface\\IRepository.cs",
+              "RelativeToolTip": "LibraHub\\Repositories\\Interface\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T02:05:42.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FileHelper.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Helpers\\FileHelper.cs",
-              "RelativeDocumentMoniker": "LibraHub\\Helpers\\FileHelper.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Helpers\\FileHelper.cs",
-              "RelativeToolTip": "LibraHub\\Helpers\\FileHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T01:55:40.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IFileHelper.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Helpers\\Interface\\IFileHelper.cs",
-              "RelativeDocumentMoniker": "LibraHub\\Helpers\\Interface\\IFileHelper.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Helpers\\Interface\\IFileHelper.cs",
-              "RelativeToolTip": "LibraHub\\Helpers\\Interface\\IFileHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T01:54:09.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UnitOfWorkRepository.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\UnitOfWorkRepository.cs",
-              "RelativeDocumentMoniker": "LibraHub\\Repositories\\UnitOfWorkRepository.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\UnitOfWorkRepository.cs",
-              "RelativeToolTip": "LibraHub\\Repositories\\UnitOfWorkRepository.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAwAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T01:44:27.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\Interface\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "LibraHub\\Repositories\\Interface\\IUnitOfWork.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\Interface\\IUnitOfWork.cs",
-              "RelativeToolTip": "LibraHub\\Repositories\\Interface\\IUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T01:41:43.448Z",
+              "WhenOpened": "2024-08-02T02:37:04.086Z",
               "EditorCaption": ""
             }
           ]

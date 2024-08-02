@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibraHub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09a57776f594813edb29da63a1e1f3d2c9e7902c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+373d48f396c61f06eac42ca47846e5f131b21f26")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibraHub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibraHub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

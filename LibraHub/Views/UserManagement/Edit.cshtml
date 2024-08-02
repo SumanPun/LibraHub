@@ -1,0 +1,84 @@
+﻿@model LibraHub.ViewModels.UserViewModel.EditUserViewModel
+
+@{
+    ViewData["Title"] = "Edit User";
+}
+
+<div class="container-fluid px-4 py-4">
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Id" />
+        <div class="card shadow-lg">
+            <div class="card-header">
+                <h4 class="card-title">Edit User</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3 form-floating">
+                            <input type="text" class="form-control" id="FirstName" placeholder="FirstName"
+                                   asp-for="FirstName">
+                            <label for="FirstName">FirstName</label>
+                            <span class="text-danger" asp-validation-for="FirstName"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3 form-floating">
+                            <input type="text" class="form-control" id="LastName" placeholder="LastName"
+                                   asp-for="LastName">
+                            <label for="LastName">LastName</label>
+                            <span class="text-danger" asp-validation-for="LastName"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3 form-floating">
+                            <input type="text" class="form-control" id="Address" placeholder="Address"
+                                   asp-for="Address">
+                            <label for="LastName">Address</label>
+                            <span class="text-danger" asp-validation-for="Address"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3 form-floating">
+                            <input type="text" class="form-control" id="PhoneNumber" placeholder="PhoneNumber"
+                                   asp-for="PhoneNumber">
+                            <label for="LastName">PhoneNumber</label>
+                            <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3 form-floating">
+                            <input type="text" class="form-control" id="UserName" placeholder="UserName"
+                                   asp-for="UserName" disabled>
+                            <label for="UserName">UserName</label>
+                            <span class="text-danger" asp-validation-for="UserName"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3 form-floating">
+                            <input type="email" class="form-control" id="Email" placeholder="Email"
+                                   asp-for="Email" disabled>
+                            <label for="Email">Email</label>
+                            <span class="text-danger" asp-validation-for="Email"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="Image">Upload Image</label>
+                            <input type="file" class="form-control" id="Image" placeholder="Image"
+                                   asp-for="Image">
+                            <span class="text-danger" asp-validation-for="Image"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary"><i class="fas fa-file"></i> Save</button>
+                <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

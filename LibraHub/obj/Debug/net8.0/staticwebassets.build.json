@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mhMnB7f1vRWKerThfD8MJNq7SfKyehEkpIkeQ5NlFMY=",
+  "Hash": "Nh5Q0ahvxgG8EcNvfLhgvvxlcWyXHDuAL7U4rHP64i4=",
   "Source": "LibraHub",
   "BasePath": "_content/LibraHub",
   "Mode": "Default",
@@ -1459,6 +1459,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\theme\\js\\scripts.js"
+    },
+    {
+      "Identity": "E:\\Dot net project\\LibraHub\\LibraHub\\wwwroot\\uploads\\user\\d5d9deec-3b54-4ad0-9402-a3217c34b2a3.jpg",
+      "SourceId": "LibraHub",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Dot net project\\LibraHub\\LibraHub\\wwwroot\\",
+      "BasePath": "_content/LibraHub",
+      "RelativePath": "uploads/user/d5d9deec-3b54-4ad0-9402-a3217c34b2a3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\user\\d5d9deec-3b54-4ad0-9402-a3217c34b2a3.jpg"
     }
   ]
 }

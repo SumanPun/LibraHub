@@ -1,0 +1,63 @@
+﻿@model LibraHub.ViewModels.UserViewModel.UserDetailsViewModel
+
+@{
+    ViewBag.Title = "User Details";
+    var imageUrl = Model.ImageUrl == null ? "/defaultImage/avatar.png" : "/uploads/user/" + Model.ImageUrl;
+}
+
+<div class="container-fluid px-4 py-4">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Student Details</h3>
+        </div>
+        <div class="card-body">
+            <table class="table table-dark table-bordered table-striped table-hover">
+                <tr>
+                    <th>Id</th>
+                    <td>@Model.EmployeeId</td>
+                </tr>
+                <tr>
+                    <th>Image</th>
+                    <td>
+                        <a href="@imageUrl" target="_blank">
+                            <img src="@imageUrl" class="img-thumbnail" width="50" height="50" />
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>FirstName</th>
+                    <td>@Model.FirstName</td>
+                </tr>
+                <tr>
+                    <th>LastName</th>
+                    <td>@Model.LastName</td>
+                </tr>
+                <tr>
+                    <th>UserName</th>
+                    <td>@Model.UserName</td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>@Model.Email</td>
+                </tr>
+                <tr>
+                    <th>PhoneNumber</th>
+                    <td>@Model.PhoneNumber</td>
+                </tr>
+                <tr>
+                    <th>Status</th>
+                    <td>@(Model.Status ? "Active" : "Not Active")</td>
+                </tr>
+                <tr>
+                    <th>Created Date</th>
+                    <td>@Model.CreatedDate.ToString("dd/MM/yyyy")</td>
+                </tr>
+            </table>
+        </div>
+        <div class="card-footer">
+            <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back</a>
+        </div>
+    </div>
+</div>
+
+

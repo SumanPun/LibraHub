@@ -1,8 +1,122 @@
-﻿@{
+﻿@* @model LibraHub.ViewModels.DashboardViewModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container-fluid px-4">
+    <h1 class="my-4">Dashboard</h1>
+    <div class="row">
+        <div class="col-xl-3 col-md-6">
+            <div class="card shadow-lg mb-4 " style="border-top: 4px solid red !important;">
+                <div class="card-body">
+                    <h4><i class="fa fa-user"></i> Active Users</h4>
+                    <hr>
+                    <h2 class="">@Model.ActiveUsers</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card shadow-lg mb-4 " style="border-top: 4px solid red !important;">
+                <div class="card-body">
+                    <h4><i class="fa fa-user"></i> Inactive Users</h4>
+                    <hr>
+                    <h2 class="">@Model.InactiveUsers</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6">
+            <div class="card shadow-lg mb-4 " style="border-top: 4px solid red !important;">
+                <div class="card-body">
+                    <h4><i class="fa fa-baby"></i> Students</h4>
+                    <hr>
+                    <h2 class="">@Model.Students</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6">
+            <div class="card shadow-lg mb-4 " style="border-top: 4px solid red !important;">
+                <div class="card-body">
+                    <h4><i class="fa fa-tools"></i> Category</h4>
+                    <hr>
+                    <h2 class="">@Model.Categories</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card shadow-lg mb-4 " style="border-top: 4px solid red !important;">
+                <div class="card-body">
+                    <h4><i class="fa fa-book"></i> Total Books</h4>
+                    <hr>
+                    <h2 class="">@Model.TotalBooks</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card shadow-lg mb-4 " style="border-top: 4px solid red !important;">
+                <div class="card-body">
+                    <h4><i class="fa fa-book"></i> Available Books</h4>
+                    <hr>
+                    <h2 class="">@Model.AvailableBooks</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6">
+            <div class="card shadow-lg mb-4 " style="border-top: 4px solid red !important;">
+                <div class="card-body">
+                    <h4><i class="fa fa-book"></i> Issued Books</h4>
+                    <hr>
+                    <h2 class="">@Model.IssuedBooks</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card shadow-lg mb-4 " style="border-top: 4px solid red !important;">
+                <div class="card-body">
+                    <h4><i class="fa fa-book"></i> Returned Books</h4>
+                    <hr>
+                    <h2 class="">@Model.ReturnedBooks</h2>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+<div class="container-fluid px-4 py-4">
+    <div class="card shadow-lg" style="border-top: 4px solid blue !important;">
+        <div class="card-header">
+            <h4 class="card-title">Book Issue History</h4>
+        </div>
+        <div class="card-body">
+            <table id="datatablesSimple">
+                <thead>
+                    <tr>
+                        <th>Book Issue ID</th>
+                        <th>Message</th>
+                        <th>Created Date</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.BookIssueHistories!)
+                    {
+                        <tr>
+                            <td>@item.BookIssueId</td>
+                            <td>@item.Message</td>
+                            <td>@item.CreatedDate.ToString("dd/MM/yyyy")</td>
+                            <td>
+                                <a asp-controller="BookIssue" asp-action="Details" asp-route-id="@item.BookIssueId" class="btn btn-sm btn-info">
+                                    <i class="fa fa-hamburger"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+ *@

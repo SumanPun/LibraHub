@@ -46,7 +46,7 @@ namespace LibraHub.Controllers
         }
         public IActionResult Create()
         {
-            return View(new UserViewModel());
+            return View(new CreateUserViewModel());
         }
         [HttpPost]
         [ValidateAntiForgeryToken]

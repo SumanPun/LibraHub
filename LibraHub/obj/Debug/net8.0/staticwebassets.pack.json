@@ -285,6 +285,10 @@
       "PackagePath": "staticwebassets\\theme\\js\\scripts.js"
     },
     {
+      "Id": "E:\\Dot net project\\LibraHub\\LibraHub\\wwwroot\\uploads\\user\\d5d9deec-3b54-4ad0-9402-a3217c34b2a3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\user\\d5d9deec-3b54-4ad0-9402-a3217c34b2a3.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LibraHub.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
