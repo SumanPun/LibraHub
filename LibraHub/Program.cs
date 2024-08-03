@@ -4,8 +4,12 @@ using LibraHub.Data;
 using LibraHub.Helpers;
 using LibraHub.Helpers.Interface;
 using LibraHub.Models;
+using LibraHub.Repositories;
+using LibraHub.Repositories.Interface;
 using LibraHub.Seeder;
 using LibraHub.Seeder.Interface;
+using LibraHub.Services;
+using LibraHub.Services.Interface;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -50,8 +54,18 @@ builder.Services.AddNotyf(options => {
     options.Position = NotyfPosition.BottomRight;
 });
 
-builder.Services.AddScoped<IUserSeeder, UserSeeder>();
+//Helper
 builder.Services.AddScoped<IFileHelper, FileHelper>();
+
+builder.Services.AddScoped<IUserSeeder, UserSeeder>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWorkRepository>();
+
+//repository
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
+
+//service
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 var app = builder.Build();
 DataSeedingAsync();

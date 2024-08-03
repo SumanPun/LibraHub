@@ -1,0 +1,38 @@
+﻿@model LibraHub.ViewModels.CategoryViewModel.EditCategoryViewModel
+
+@{
+    ViewData["Title"] = "Edit Category";
+}
+
+<div class="container-fluid px-4 py-4">
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="Id">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Edit Category</h4>
+            </div>
+            <div class="card-body">
+                <div class="mb-3 form-floating">
+                    <input type="text" class="form-control" id="name" placeholder="Name" asp-for="Name">
+                    <label for="name">Name</label>
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+                <div class="mb-3 form-floating">
+                    <input type="text" class="form-control" id="description" placeholder="Description"
+                           asp-for="Description">
+                    <label for="description">Description</label>
+                    <span class="text-danger" asp-validation-for="Description"></span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary"><i class="fas fa-file"></i> Save</button>
+                <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

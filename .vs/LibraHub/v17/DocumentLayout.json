@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "E:\\Dot net project\\LibraHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\repositories\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\repositories\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\viewmodels\\categoryviewmodel\\categorydetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\viewmodels\\categoryviewmodel\\categorydetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,53 +59,118 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "LibraHub\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "LibraHub\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "LibraHub\\Services\\CategoryService.cs",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Services\\CategoryService.cs",
+              "RelativeToolTip": "LibraHub\\Services\\CategoryService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T02:51:55.776Z",
+              "WhenOpened": "2024-08-03T06:41:04.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\Interface\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "LibraHub\\Repositories\\Interface\\ICategoryRepository.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\Interface\\ICategoryRepository.cs",
-              "RelativeToolTip": "LibraHub\\Repositories\\Interface\\ICategoryRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAzAAAA",
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "LibraHub\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "LibraHub\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T02:50:30.287Z",
+              "WhenOpened": "2024-08-03T06:40:10.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\Repository.cs",
-              "RelativeDocumentMoniker": "LibraHub\\Repositories\\Repository.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\Repository.cs",
-              "RelativeToolTip": "LibraHub\\Repositories\\Repository.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAoAAAARAAAA",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Program.cs",
+              "RelativeDocumentMoniker": "LibraHub\\Program.cs",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Program.cs",
+              "RelativeToolTip": "LibraHub\\Program.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T02:41:48.587Z",
+              "WhenOpened": "2024-08-03T06:35:03.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraHub\\Views\\Category\\Index.cshtml",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "LibraHub\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T06:32:44.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "LibraHub\\Views\\Category\\Create.cshtml",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "LibraHub\\Views\\Category\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T06:32:20.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryDetailViewModel.cs",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\ViewModels\\CategoryViewModel\\CategoryDetailViewModel.cs",
+              "RelativeDocumentMoniker": "LibraHub\\ViewModels\\CategoryViewModel\\CategoryDetailViewModel.cs",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\ViewModels\\CategoryViewModel\\CategoryDetailViewModel.cs",
+              "RelativeToolTip": "LibraHub\\ViewModels\\CategoryViewModel\\CategoryDetailViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T06:32:10.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\Interface\\IRepository.cs",
-              "RelativeDocumentMoniker": "LibraHub\\Repositories\\Interface\\IRepository.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Repositories\\Interface\\IRepository.cs",
-              "RelativeToolTip": "LibraHub\\Repositories\\Interface\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Category\\Details.cshtml",
+              "RelativeDocumentMoniker": "LibraHub\\Views\\Category\\Details.cshtml",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Category\\Details.cshtml",
+              "RelativeToolTip": "LibraHub\\Views\\Category\\Details.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAAAAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T06:29:38.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LibraHub\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "LibraHub\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T06:28:37.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "LibraHub\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "LibraHub\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAswB8AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T02:37:04.086Z",
+              "WhenOpened": "2024-08-03T06:08:26.191Z",
               "EditorCaption": ""
             }
           ]
