@@ -1,0 +1,53 @@
+﻿@model LibraHub.ViewModels.BookViewModel.EditBookViewModel
+
+@{
+    ViewData["Title"] = "Edit Book";
+}
+
+<div class="container-fluid px-4 py-4">
+    <form asp-action="Edit">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Edit Book</h4>
+            </div>
+            <div class="card-body">
+                <div class="mb-3 form-floating">
+                    <input type="text" class="form-control" id="name" placeholder="Name" asp-for="Name">
+                    <label for="name">Name</label>
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+                <div class="mb-3 form-floating">
+                    <input type="text" class="form-control" id="author" placeholder="Author" asp-for="Author">
+                    <label for="author">Author</label>
+                    <span class="text-danger" asp-validation-for="Author"></span>
+                </div>
+                <div class="mb-3 form-floating">
+                    <input type="text" class="form-control" id="publication" placeholder="Publication" asp-for="Publication">
+                    <label for="publication">Publication</label>
+                    <span class="text-danger" asp-validation-for="Publication"></span>
+                </div>
+                <div class="mb-3 form-floating">
+                    <input type="number" class="form-control" id="numberOfCopies" placeholder="NumberOfCopies" asp-for="NumberOfCopies">
+                    <label for="numberOfCopies">Number Of Copies</label>
+                    <span class="text-danger" asp-validation-for="NumberOfCopies"></span>
+                </div>
+                <div class="mb-3 form-floating">
+                    <input type="number" class="form-control" id="numberOfCopies" placeholder="Available Copies" asp-for="AvailableCopies">
+                    <label for="numberOfCopies">Available Copies</label>
+                    <span class="text-danger" asp-validation-for="AvailableCopies"></span>
+                </div>
+                <div class="mb-3 form-floating">
+                    <select class="form-control" id="category" asp-for="CategoryId" asp-items="Model.Categories">
+                        <option value="">-- Select Category --</option>
+                    </select>
+                    <label for="category">Category</label>
+                    <span class="text-danger" asp-validation-for="CategoryId"></span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary"><i class="fas fa-file"></i> Save</button>
+                <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back</a>
+            </div>
+        </div>
+    </form>
+</div>
