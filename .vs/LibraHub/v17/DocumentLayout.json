@@ -5,34 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\services\\interface\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\services\\interface\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,100 +32,9 @@
               "RelativeDocumentMoniker": "LibraHub\\Program.cs",
               "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Program.cs",
               "RelativeToolTip": "LibraHub\\Program.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAAAEUAAAA0AAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAEYAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T15:13:24.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Book\\Details.cshtml",
-              "RelativeDocumentMoniker": "LibraHub\\Views\\Book\\Details.cshtml",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Book\\Details.cshtml",
-              "RelativeToolTip": "LibraHub\\Views\\Book\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T15:10:48.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Book\\Edit.cshtml",
-              "RelativeDocumentMoniker": "LibraHub\\Views\\Book\\Edit.cshtml",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Book\\Edit.cshtml",
-              "RelativeToolTip": "LibraHub\\Views\\Book\\Edit.cshtml",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAuwDUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T15:09:09.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Book\\Create.cshtml",
-              "RelativeDocumentMoniker": "LibraHub\\Views\\Book\\Create.cshtml",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Book\\Create.cshtml",
-              "RelativeToolTip": "LibraHub\\Views\\Book\\Create.cshtml",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAADAAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T15:08:04.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Book\\Index.cshtml",
-              "RelativeDocumentMoniker": "LibraHub\\Views\\Book\\Index.cshtml",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Book\\Index.cshtml",
-              "RelativeToolTip": "LibraHub\\Views\\Book\\Index.cshtml",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAuwEMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T15:06:09.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "LibraHub\\Controllers\\BookController.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Controllers\\BookController.cs",
-              "RelativeToolTip": "LibraHub\\Controllers\\BookController.cs",
-              "ViewState": "AQIAAJ4AAAAAAAAAAAAAAKoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T15:02:20.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Services\\BookService.cs",
-              "RelativeDocumentMoniker": "LibraHub\\Services\\BookService.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Services\\BookService.cs",
-              "RelativeToolTip": "LibraHub\\Services\\BookService.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAC0AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T14:58:49.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IBookService.cs",
-              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Services\\Interface\\IBookService.cs",
-              "RelativeDocumentMoniker": "LibraHub\\Services\\Interface\\IBookService.cs",
-              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Services\\Interface\\IBookService.cs",
-              "RelativeToolTip": "LibraHub\\Services\\Interface\\IBookService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T14:58:18.454Z",
+              "WhenOpened": "2024-08-09T07:13:20.76Z",
               "EditorCaption": ""
             }
           ]

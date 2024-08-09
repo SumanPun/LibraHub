@@ -1,0 +1,72 @@
+﻿@model LibraHub.ViewModels.StudentViewModel.StudentDetailViewModel
+
+@{
+    ViewBag.Title = "Student Details";
+    var imageUrl = Model.ImageUrl == null ? "/defaultImage/avatar.png" : "/uploads/student/" + Model.ImageUrl;
+}
+
+<div class="container-fluid px-4 py-4">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Student Details</h3>
+        </div>
+        <div class="card-body">
+            <table class="table table-dark table-bordered table-striped table-hover">
+                <tr>
+                    <th>Id</th>
+                    <td>@Model.Id</td>
+                </tr>
+                <tr>
+                    <th>Image</th>
+                    <td>
+                        <a href="@imageUrl" target="_blank">
+                            <img src="@imageUrl" class="img-thumbnail" width="50" height="50" />
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>FirstName</th>
+                    <td>@Model.FirstName</td>
+                </tr>
+                <tr>
+                    <th>LastName</th>
+                    <td>@Model.LastName</td>
+                </tr>
+                <tr>
+                    <th>Grade</th>
+                    <td>@Model.Grade</td>
+                </tr>
+                <tr>
+                    <th>Phone Number</th>
+                    <td>@Model.PhoneNumber</td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>@Model.Email</td>
+                </tr>
+                <tr>
+                    <th>Created Date</th>
+                    <td>@Model.CreatedDate.ToString("dd/MM/yyyy")</td>
+                </tr>
+                <tr>
+                    <th>Modified Date</th>
+                    <td>@Model.ModifiedDate.ToString("dd/MM/yyyy")</td>
+                </tr>
+                <tr>
+                    <th>Created By</th>
+                    <td>@Model.CreatedBy</td>
+                </tr>
+                <tr>
+                    <th>Modified By</th>
+                    <td>@Model.ModifiedBy</td>
+                </tr>
+            </table>
+        </div>
+        <div class="card-footer">
+            <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back</a>
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,59 @@
+﻿@model LibraHub.ViewModels.StudentViewModel.EditStudentViewModel
+
+@{
+    ViewData["Title"] = "Edit Student";
+}
+
+<div class="container-fluid px-4 py-4">
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Id" />
+        <div class="card shadow-lg">
+            <div class="card-header">
+                <h4 class="card-title">Edit Student</h4>
+            </div>
+            <div class="card-body">
+                <div class="mb-3 form-floating">
+                    <input type="text" class="form-control" id="FirstName" placeholder="FirstName" asp-for="FirstName">
+                    <label for="FirstName">FirstName</label>
+                    <span class="text-danger" asp-validation-for="FirstName"></span>
+                </div>
+                <div class="mb-3 form-floating">
+                    <input type="text" class="form-control" id="LastName" placeholder="LastName" asp-for="LastName">
+                    <label for="LastName">LastName</label>
+                    <span class="text-danger" asp-validation-for="LastName"></span>
+                </div>
+                <div class="mb-3 form-floating">
+                    <input type="phone" class="form-control" id="PhoneNumber" placeholder="PhoneNumber"
+                           asp-for="PhoneNumber">
+                    <label for="PhoneNumber">PhoneNumber</label>
+                    <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+                </div>
+                <div class="mb-3 form-floating">
+                    <input type="email" class="form-control" id="Email" placeholder="Email" asp-for="Email">
+                    <label for="Email">Email</label>
+                    <span class="text-danger" asp-validation-for="Email"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="Grade">Grade</label>
+                    <select class="select2 form-control" id="Grade" asp-for="Grade" asp-items="Model.GradeSelectList()">
+                        <option value="">-- Select Grade --</option>
+                    </select>
+                    <span class="text-danger" asp-validation-for="Grade"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="Image">Upload Image</label>
+                    <input type="file" class="form-control" accept="*/png, */jpg" id="Image" asp-for="Image">
+                    <span class="text-danger" asp-validation-for="Image"></span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary"><i class="fas fa-file"></i> Save</button>
+                <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
