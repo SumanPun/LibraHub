@@ -1,0 +1,59 @@
+﻿@model LibraHub.ViewModels.UserViewModel.ProfileViewModel
+
+@{
+    ViewBag.Title = "User Profile";
+    var imageUrl = Model.ImageUrl == null ? "/defaultImage/avatar.png" : "/uploads/user/" + Model.ImageUrl;
+}
+
+<div class="container-fluid px-4 py-4">
+    <div class="card border-top shadow-lg" style="border-top: 4px solid red !important;">
+        <div class="card-body">
+            <h1>My Profile</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="@imageUrl" target="_blank">
+                        <img src="@imageUrl" height="400px" width="100%" style="object-fit: cover; object-position: center;" />
+                    </a>
+                </div>
+                <div class="col-md-8">
+                    <table class="table table-bordered">
+                        <tr>
+                            <th class="bg-info text-white">Id</th>
+                            <td>@Model.EmployeeId</td>
+                        </tr>
+
+                        <tr>
+                            <th class="bg-info text-white">FirstName</th>
+                            <td>@Model.FirstName</td>
+                        </tr>
+                        <tr>
+                            <th class="bg-info text-white">LastName</th>
+                            <td>@Model.LastName</td>
+                        </tr>
+
+                        <tr>
+                            <th class="bg-info text-white">UserName</th>
+                            <td>@Model.UserName</td>
+                        </tr>
+                        <tr>
+                            <th class="bg-info text-white">Email</th>
+                            <td>@Model.Email</td>
+                        </tr>
+                        <tr>
+                            <th class="bg-info text-white">Phone Number</th>
+                            <td>@Model.PhoneNumber</td>
+                        </tr>
+                        <tr>
+                            <th class="bg-info text-white">Address</th>
+                            <td>@Model.Address</td>
+                        </tr>
+                    </table>
+                    <a asp-action="Edit" class="btn btn-primary"><i class="fas fa-edit"></i> Edit</a>
+                    <a asp-action="ChangePassword" class="btn btn-warning"><i class="fas fa-key"></i> Change Password</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

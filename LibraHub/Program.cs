@@ -64,12 +64,15 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWorkRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+builder.Services.AddScoped<IBookIssueRepsoitory, BookIssueRepository>();
+builder.Services.AddScoped<IBookIssueHistoryRepository, BookIssueHistoryRepository>();
 
 
 //service
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IBookService, BookService>();
 builder.Services.AddScoped<IStudentService, StudentService>();
+builder.Services.AddScoped<IBookIssueService, BookIssueService>();
 
 var app = builder.Build();
 DataSeedingAsync();

@@ -5,6 +5,58 @@
     {
       "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\bookissue\\indexbookissuehistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\bookissue\\indexbookissuehistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\controllers\\bookissuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\controllers\\bookissuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\bookissue\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\bookissue\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\bookissue\\indexreturnbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\bookissue\\indexreturnbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\bookissue\\returnbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\bookissue\\returnbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\bookissue\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\bookissue\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\views\\bookissue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\views\\bookissue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\services\\bookissueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\services\\bookissueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|e:\\dot net project\\librahub\\librahub\\services\\interface\\ibookissueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A5A19B-6ED3-4270-B9B9-5402C9446D17}|LibraHub\\LibraHub.csproj|solutionrelative:librahub\\services\\interface\\ibookissueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,10 +84,177 @@
               "RelativeDocumentMoniker": "LibraHub\\Program.cs",
               "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Program.cs",
               "RelativeToolTip": "LibraHub\\Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAEYAAAA4AAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAgwEsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T07:13:20.76Z",
+              "WhenOpened": "2024-08-24T04:36:03.804Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraHub\\Views\\Profile\\Index.cshtml",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "LibraHub\\Views\\Profile\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T04:35:31.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Profile\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "LibraHub\\Views\\Profile\\ChangePassword.cshtml",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Profile\\ChangePassword.cshtml",
+              "RelativeToolTip": "LibraHub\\Views\\Profile\\ChangePassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T04:34:21.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IndexBookIssueHistory.cshtml",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\BookIssue\\IndexBookIssueHistory.cshtml",
+              "RelativeDocumentMoniker": "LibraHub\\Views\\BookIssue\\IndexBookIssueHistory.cshtml",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\BookIssue\\IndexBookIssueHistory.cshtml",
+              "RelativeToolTip": "LibraHub\\Views\\BookIssue\\IndexBookIssueHistory.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T04:32:04.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\BookIssue\\Details.cshtml",
+              "RelativeDocumentMoniker": "LibraHub\\Views\\BookIssue\\Details.cshtml",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\BookIssue\\Details.cshtml",
+              "RelativeToolTip": "LibraHub\\Views\\BookIssue\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T04:31:09.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IndexReturnBook.cshtml",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\BookIssue\\IndexReturnBook.cshtml",
+              "RelativeDocumentMoniker": "LibraHub\\Views\\BookIssue\\IndexReturnBook.cshtml",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\BookIssue\\IndexReturnBook.cshtml",
+              "RelativeToolTip": "LibraHub\\Views\\BookIssue\\IndexReturnBook.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T04:29:50.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReturnBook.cshtml",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\BookIssue\\ReturnBook.cshtml",
+              "RelativeDocumentMoniker": "LibraHub\\Views\\BookIssue\\ReturnBook.cshtml",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\BookIssue\\ReturnBook.cshtml",
+              "RelativeToolTip": "LibraHub\\Views\\BookIssue\\ReturnBook.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T04:27:54.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Profile\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LibraHub\\Views\\Profile\\Edit.cshtml",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\Profile\\Edit.cshtml",
+              "RelativeToolTip": "LibraHub\\Views\\Profile\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T04:26:24.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\BookIssue\\Create.cshtml",
+              "RelativeDocumentMoniker": "LibraHub\\Views\\BookIssue\\Create.cshtml",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\BookIssue\\Create.cshtml",
+              "RelativeToolTip": "LibraHub\\Views\\BookIssue\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T04:24:39.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\BookIssue\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraHub\\Views\\BookIssue\\Index.cshtml",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Views\\BookIssue\\Index.cshtml",
+              "RelativeToolTip": "LibraHub\\Views\\BookIssue\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T04:22:06.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "LibraHub\\Controllers\\ProfileController.cs",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "LibraHub\\Controllers\\ProfileController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T04:16:52.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookIssueController.cs",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Controllers\\BookIssueController.cs",
+              "RelativeDocumentMoniker": "LibraHub\\Controllers\\BookIssueController.cs",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Controllers\\BookIssueController.cs",
+              "RelativeToolTip": "LibraHub\\Controllers\\BookIssueController.cs",
+              "ViewState": "AQIAAAwBAAAAAAAAAAAAABIBAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T06:35:37.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookIssueService.cs",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Services\\BookIssueService.cs",
+              "RelativeDocumentMoniker": "LibraHub\\Services\\BookIssueService.cs",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Services\\BookIssueService.cs",
+              "RelativeToolTip": "LibraHub\\Services\\BookIssueService.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAwA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T06:29:54.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IBookIssueService.cs",
+              "DocumentMoniker": "E:\\Dot net project\\LibraHub\\LibraHub\\Services\\Interface\\IBookIssueService.cs",
+              "RelativeDocumentMoniker": "LibraHub\\Services\\Interface\\IBookIssueService.cs",
+              "ToolTip": "E:\\Dot net project\\LibraHub\\LibraHub\\Services\\Interface\\IBookIssueService.cs",
+              "RelativeToolTip": "LibraHub\\Services\\Interface\\IBookIssueService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T06:20:42.508Z"
             }
           ]
         }

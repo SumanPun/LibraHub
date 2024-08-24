@@ -1,0 +1,58 @@
+﻿@model LibraHub.ViewModels.BookIssueViewModel.CreateBookIssueViewModel
+
+@{
+    ViewData["Title"] = "Create Book Issue";
+}
+
+<div class="container-fluid px-4 py-4">
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <div class="card shadow-lg">
+            <div class="card-header">
+                <h4 class="card-title">Create Book Issue</h4>
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <label for="Book">Book</label>
+                    <select class="select2 form-control" id="Book" asp-for="BookId" asp-items="Model.BookSelectList">
+                        <option value="">-- Select Book --</option>
+                    </select>
+                    <span class="text-danger" asp-validation-for="BookId"></span>
+                </div>
+                <div class="mb-3 form-floating">
+                    <input type="date" class="form-control" id="IssueDate" placeholder="IssueDate" asp-for="IssueDate">
+                    <label for="IssueDate">IssueDate</label>
+                    <span class="text-danger" asp-validation-for="IssueDate"></span>
+                </div>
+                <div class="mb-3 form-floating">
+                    <input type="date" class="form-control" id="ReturnDate" placeholder="ReturnDate"
+                           asp-for="ReturnDate">
+                    <label for="ReturnDate">ReturnDate</label>
+                    <span class="text-danger" asp-validation-for="ReturnDate"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="Student">Student</label>
+                    <select class="select2 form-control" id="Student" asp-for="StudentId"
+                            asp-items="Model.StudentSelectList">
+                        <option value="">-- Select Student --</option>
+                    </select>
+                    <span class="text-danger" asp-validation-for="StudentId"></span>
+                </div>
+                <div class="mb-3 form-floating">
+                    <textarea type="text" class="form-control" id="Note" placeholder="Note"
+                              asp-for="Note" style="height: 100px;"></textarea>
+                    <label for="Note">Note</label>
+                    <span class="text-danger" asp-validation-for="Note"></span>
+                </div>
+
+            </div>
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary"><i class="fas fa-file"></i> Save</button>
+                <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

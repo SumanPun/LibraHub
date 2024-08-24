@@ -1,0 +1,71 @@
+﻿@model LibraHub.ViewModels.BookIssueViewModel.BookIssueDetailsViewModel
+
+@{
+    ViewBag.Title = "Book Issue Details";
+}
+
+<div class="container-fluid px-4 py-4">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Book Issue Details</h3>
+        </div>
+        <div class="card-body">
+            <table class="table table-dark table-bordered table-striped table-hover">
+                <tr>
+                    <th>Id</th>
+                    <td>@Model.Id</td>
+                </tr>
+                <tr>
+                    <th>Issue Date</th>
+                    <td>@Model.IssueDate.ToString("dd/MM/yyyy")</td>
+                </tr>
+                <tr>
+                    <th>Return Date</th>
+                    <td>@Model.ReturnDate.ToString("dd/MM/yyyy")</td>
+                </tr>
+                <tr>
+                    <th>Grade</th>
+                    <td>@Model.Grade</td>
+                </tr>
+                <tr>
+                    <th>Student</th>
+                    <td>@Model.Student</td>
+                </tr>
+                <tr>
+                    <th>Book</th>
+                    <td>@Model.Book</td>
+                </tr>
+                <tr>
+                    <th>Status</th>
+                    <td>@(Model.Status ? "Returned" : "Not Returned")</td>
+                </tr>
+                <tr>
+                    <th>Note</th>
+                    <td>@Model.Note</td>
+                </tr>
+                <tr>
+                    <th>Created Date</th>
+                    <td>@Model.CreatedDate.ToString("dd/MM/yyyy")</td>
+                </tr>
+                <tr>
+                    <th>Modified Date</th>
+                    <td>@Model.ModifiedDate.ToString("dd/MM/yyyy")</td>
+                </tr>
+                <tr>
+                    <th>Created By</th>
+                    <td>@Model.CreatedBy</td>
+                </tr>
+                <tr>
+                    <th>Modified By</th>
+                    <td>@Model.ModifiedBy</td>
+                </tr>
+            </table>
+        </div>
+        <div class="card-footer">
+            @* // go back with javascrip history *@
+            <a href="javascript:history.go(-1)" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back</a>
+        </div>
+    </div>
+</div>
+
+
